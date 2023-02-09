@@ -1,0 +1,234 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+body {
+  font-family: "Red Hat Display", sans-serif;
+  overflow-x: hidden;
+}
+.conteiner {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+/* ----header---- */
+.header {
+  width: 65rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 1.5rem;
+  margin-right: 2rem;
+}
+.header-logo {
+  display: flex;
+}
+.getstarted {
+  width: 10.44rem;
+  height: 3.5rem;
+  border-radius: 1.75rem;
+  border: none;
+  background: #13183f;
+  color: white;
+  cursor: pointer;
+}
+.header {
+  position: relative;
+  z-index: 9999;
+}
+header .getstarted:hover {
+  background-color: #666ca3;
+}
+/* ----toppage---- */
+
+.headertext {
+  width: 28.56rem;
+  height: 8.94rem;
+  color: #13183f;
+  font-size: 3.5rem;
+  line-height: 4.44rem;
+  margin-top: 15.75rem;
+}
+.text {
+  width: 27.81rem;
+  height: 5.25rem;
+  font-weight: 500;
+  font-size: 1.2rem;
+  margin-top: 1.63rem;
+  line-height: 1.75rem;
+  color: #83869a;
+}
+#heroweb {
+  position: absolute;
+  top: -7rem;
+  right: -17rem;
+  width: 45rem;
+  height: 43rem;
+}
+/* -------button------- */
+.textbutton {
+  width: 10.44rem;
+  height: 3.94rem;
+  border-radius: 1.97rem;
+  margin-top: 2.5rem;
+  cursor: pointer;
+  border: none;
+  background: linear-gradient(#ff6f48, #f02aa6);
+  color: white;
+}
+
+.textbutton {
+  position: relative;
+  z-index: 9999;
+}
+.textbutton:hover {
+  background: linear-gradient(
+      0deg,
+      rgba(255, 255, 255, 0.5),
+      rgba(255, 255, 255, 0.5)
+    ),
+    linear-gradient(180deg, #4851ff -54.32%, #f02aa6 100%);
+}
+/* ----midpage---- */
+#midpage {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  background: linear-gradient(180deg, #ffffff 0%, #f0f1ff 100%);
+}
+.courses {
+  display: grid;
+  grid-template-columns: 21.88rem 21.88rem 21.88rem;
+  grid-template-rows: 20.13rem 20.13rem;
+  row-gap: 5rem;
+  grid-column-gap: 1.88rem;
+  justify-content: space-between;
+  margin-top: 3.56rem;
+  flex-wrap: wrap;
+  margin-bottom: 7rem;
+}
+.course {
+  border-radius: 0.94rem;
+  background: linear-gradient(#ff6f48, #f02aa6);
+}
+
+.course1,
+.course2,
+.course3,
+.course4,
+.course5 {
+  border-radius: 0.94rem;
+  background: white;
+}
+
+.check {
+  width: 17.88rem;
+  height: 7.5rem;
+  margin: 4rem auto auto 2rem;
+  color: white;
+  font-style: normal;
+  font-weight: 800;
+  font-size: 2rem;
+  line-height: 2.5rem;
+}
+.cousebutton {
+  height: 1.75rem;
+  color: #f74780;
+  background: white;
+  border: none;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 1.13rem;
+  line-height: 1.75rem;
+  cursor: pointer;
+}
+.cousebutton:hover {
+  color: #ffa7c3;
+}
+.courselearn,
+.Design,
+.Photography,
+.Crypto,
+.Business,
+.learn,
+.icon,
+.cousebutton {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  position: relative;
+  padding: 1rem 3rem;
+}
+.courselearn,
+.Design,
+.Photography,
+.Crypto,
+.Business {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 1.13rem;
+  line-height: 1.75rem;
+  color: #83869a;
+}
+.courselearn,
+.Crypto,
+.Business,
+.Photography,
+.Design {
+  height: 9rem;
+}
+.learn {
+  font-style: normal;
+  font-weight: 800;
+  font-size: 1.3rem;
+  line-height: 1.88rem;
+  color: #13183f;
+}
+.icon {
+  margin-top: -2.5rem;
+}
+/* ----footer---- */
+.footer {
+  align-items: center;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  background-color: #13183f;
+}
+
+.footerinside {
+  max-width: 1140px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: auto;
+  margin-top: 20px;
+}
+
+.footerbutton {
+  width: 10.44rem;
+  height: 3.5rem;
+  border-radius: 1.75rem;
+  border: none;
+  background: linear-gradient(#4851ff, #f02aa6);
+  color: white;
+  margin-right: 2rem;
+  cursor: pointer;
+}
+footer {
+  position: relative;
+  z-index: 9999;
+}
+footer .footerbutton:hover {
+  background: linear-gradient(
+      0deg,
+      rgba(255, 255, 255, 0.5),
+      rgba(255, 255, 255, 0.5)
+    ),
+    linear-gradient(180deg, #4851ff -54.32%, #f02aa6 100%);
+}
+.logo {
+  display: flex;
+}
